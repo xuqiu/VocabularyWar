@@ -1,0 +1,31 @@
+<Solution>
+  <PropertyGroup Name="empty" Version="2.1.5.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="PlayScene.csd" Type="Scene" />
+        <Image Name="bg.png" />
+        <Image Name="button_n.png" />
+        <PlistImageFolder PListFile="snow_packer.plist" Name=".snow_packer_PList.Dir">
+          <PlistImageFile Name="m_bun_again.png" Key="m_bun_again.png" />
+          <PlistImageFile Name="m_bun_back.png" Key="m_bun_back.png" />
+          <PlistImageFile Name="m_bun_close_s.png" Key="m_bun_close_s.png" />
+          <PlistImageFile Name="m_bun_next_s.png" Key="m_bun_next_s.png" />
+          <PlistImageFile Name="m_indicator2.png" Key="m_indicator2.png" />
+          <PlistImageFile Name="m_monster_g1_0001.png" Key="m_monster_g1_0001.png" />
+          <PlistImageFile Name="m_monster_g1_0002.png" Key="m_monster_g1_0002.png" />
+          <PlistImageFile Name="m_monster_g1_0003.png" Key="m_monster_g1_0003.png" />
+          <PlistImageFile Name="m_monster_g_0001.png" Key="m_monster_g_0001.png" />
+          <PlistImageFile Name="m_monster_g_0002.png" Key="m_monster_g_0002.png" />
+          <PlistImageFile Name="m_monster_g_0003.png" Key="m_monster_g_0003.png" />
+          <PlistImageFile Name="m_number.png" Key="m_number.png" />
+          <PlistImageFile Name="m_play.png" Key="m_play.png" />
+          <PlistImageFile Name="m_star_s.png" Key="m_star_s.png" />
+        </PlistImageFolder>
+        <Project Name="monster_rabbit.csd" Type="Node" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

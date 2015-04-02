@@ -1,0 +1,22 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/lib/UILoader.js",
+        "src/lib/Logger.js",
+        "src/PlayScene.js",
+        "src/MonsterSprite.js",
+        "src/MonsterAction.js",
+        "src/app.js"
+    ]
+}

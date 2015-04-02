@@ -1,0 +1,34 @@
+<UserData>
+  <OpenedDocuments>
+    <FilePathData Path="Battle.csd" />
+    <FilePathData Path="fx_vic.csd" />
+    <FilePathData Path="cat_queen.csd" />
+    <FilePathData Path="captain_jack.csd" />
+    <FilePathData Path="generalshark.csd" />
+    <FilePathData Path="huchey.csd" />
+    <FilePathData Path="tentacle.csd" />
+    <FilePathData Path="pharaoh.csd" />
+  </OpenedDocuments>
+  <ActiveDocument Path="pharaoh.csd" />
+  <Properties>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.BattleScene" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="" />
+        <iOS_Target Value="BattleScene iOS" />
+        <iOS_BundleID Value="" />
+        <Platform Value="Android" />
+        <PublishSetting Value="Resource" />
+        <FrameworkVersion Value="cocos2d-x-3.4rc1" />
+        <IsDebugKeystore Value="True" />
+        <KeystorePassword Value="" />
+        <KeystoreAliasName Value="" />
+        <KeystoreAliasPassword Value="" />
+      </Value>
+    </Item>
+  </Properties>
+</UserData>

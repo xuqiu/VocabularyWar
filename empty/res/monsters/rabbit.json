@@ -1,0 +1,177 @@
+{
+  "ID": "9be235b8-bc68-4760-8053-7d932b8404b5",
+  "Version": "2.1.5.0",
+  "Name": "monster_rabbit",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 40,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1533370280,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 8.0,
+                "Y": 8.0,
+                "FrameIndex": 10,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 20,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": -8.0,
+                "Y": -8.0,
+                "FrameIndex": 30,
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 40,
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1533370280,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 50.0,
+                "FrameIndex": 0,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 7.000305,
+                "Y": 50.0,
+                "FrameIndex": 10,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.000305175781,
+                "Y": 50.0,
+                "FrameIndex": 20,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -6.99945068,
+                "Y": 50.0,
+                "FrameIndex": 30,
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0005493164,
+                "Y": 50.0,
+                "FrameIndex": 40,
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "Name": "move",
+          "StartIndex": 0,
+          "EndIndex": 3,
+          "RenderColor": {
+            "G": 250,
+            "B": 250
+          }
+        }
+      ],
+      "ObjectData": {
+        "Tag": 5,
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "m_monster_g_0002.png",
+              "Plist": "monsters_packer.plist"
+            },
+            "Tag": 7,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.49945,
+            "RightMargin": -49.50055,
+            "TopMargin": -110.0,
+            "BottomMargin": -10.0,
+            "ActionTag": -1533370280,
+            "Position": {
+              "X": -6.99945068,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Rotation": -8.0,
+            "RotationSkewX": -8.0,
+            "RotationSkewY": -8.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 113.0,
+              "Y": 120.0
+            },
+            "FrameEvent": "",
+            "Name": "m_monster_g_0002_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "FrameEvent": "",
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}
