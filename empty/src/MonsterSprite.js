@@ -80,7 +80,7 @@ var MonsterSprite = cc.Sprite.extend({
         particleFireball.setSpeed(20);
         particleFireball.setDuration(constant.attackTime+particleFireball.getLife());
         particleFireball.attr({x:this.x,y:this.y});
-        this._parent.addChild(particleFireball);
+        this.getParent().addChild(particleFireball);
         logger.info(this._parent,"3");
         //cc.log("GameLayer onTouchEnded" + JSON.stringify(touch.getLocation()));
         //弹道
