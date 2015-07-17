@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e41a9f3-9108-4320-a0ab-c68a56c31d6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frameworks/runtime-src/proj.ios_mac/empty.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/frameworks/runtime-src/proj.ios_mac/empty.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="empty.iws" />
@@ -578,7 +577,7 @@
       <workItem from="1427777980975" duration="21393000" />
       <workItem from="1436797221776" duration="604000" />
       <workItem from="1436967129024" duration="570000" />
-      <workItem from="1437137741585" duration="1497000" />
+      <workItem from="1437137741585" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="[yin]">
       <created>1437141947182</created>
@@ -586,11 +585,17 @@
       <option name="project" value="LOCAL" />
       <updated>1437141947182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[yin]">
+      <created>1437142008310</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1437142008310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81568000" />
+    <option name="totallyTimeSpent" value="81586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
