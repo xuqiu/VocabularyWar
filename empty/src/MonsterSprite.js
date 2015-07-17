@@ -75,11 +75,12 @@ var MonsterSprite = cc.Sprite.extend({
         logger.info(this._parent,"1");
         this.runAction(moveJump );
         //子弹粒子
-        var particleFireball = cc.ParticleSystem.create(res.particle_attack);
+        var particleFireball = cc.ParticleSystem.create(res.particle_fireball);
         logger.info(this._parent,"2");
         particleFireball.setSpeed(20);
         particleFireball.setDuration(constant.attackTime+particleFireball.getLife());
         particleFireball.attr({x:this.x,y:this.y});
+        logger.info(this._parent,"2.5");
         this.getParent().addChild(particleFireball);
         logger.info(this._parent,"3");
         //cc.log("GameLayer onTouchEnded" + JSON.stringify(touch.getLocation()));
