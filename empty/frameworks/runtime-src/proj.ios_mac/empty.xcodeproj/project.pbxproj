@@ -747,7 +747,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/prebuilt/ios";
 				OTHER_LDFLAGS = "";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/cocos /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/cocos/platform/ios /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/external/spidermonkey/include/ios /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/plugin/jsbindings/auto /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/plugin/jsbindings/manual /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/external/curl/include/ios";
 				VALID_ARCHS = "arm64 armv7";
@@ -777,7 +777,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/prebuilt/ios";
 				OTHER_LDFLAGS = "";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/cocos /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/cocos/platform/ios /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/external/spidermonkey/include/ios /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/plugin/jsbindings/auto /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/plugin/jsbindings/manual /Applications/Cocos/frameworks/cocos2d-x-3.4rc1/external/curl/include/ios";
 				VALID_ARCHS = "arm64 armv7";
