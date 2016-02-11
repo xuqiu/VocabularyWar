@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10f1ae1-eef6-498b-9f92-c5b3d0c9f2a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frameworks/runtime-src/proj.ios_mac/empty.xcodeproj/project.xcworkspace/xcuserdata/yinzhennan.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/frameworks/runtime-src/proj.ios_mac/empty.xcodeproj/project.xcworkspace/xcuserdata/yinzhennan.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/Logger.js" afterPath="$PROJECT_DIR$/src/lib/Logger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stages/button.js" afterPath="$PROJECT_DIR$/src/stages/button.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="empty.iws" />
@@ -581,7 +578,7 @@
       <updated>1446521033816</updated>
       <workItem from="1446521044960" duration="117000" />
       <workItem from="1446521194467" duration="448000" />
-      <workItem from="1455186041003" duration="13107000" />
+      <workItem from="1455186041003" duration="13154000" />
     </task>
     <task id="LOCAL-00001" summary="选关界面">
       <created>1455206386342</created>
@@ -589,11 +586,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455206386342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="logger完善">
+      <created>1455207461567</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1455207461567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13672000" />
+    <option name="totallyTimeSpent" value="13719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -631,7 +634,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="选关界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="选关界面" />
+    <MESSAGE value="logger完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="logger完善" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
