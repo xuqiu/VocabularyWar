@@ -2,6 +2,7 @@ var ButtonSprite = ccui.Button.extend({
     _id:null,
     ctor:function(){
 		this._super(res.stages_button_png,res.stages_button_png);
+        this.addTouchEventListener(this.onTouchEnded,this);
 	},
     onEnter:function(){
         this._super();
@@ -12,5 +13,5 @@ var ButtonSprite = ccui.Button.extend({
     },
     setId:function(id){
         this._id=id;
-    },
+    }
 });

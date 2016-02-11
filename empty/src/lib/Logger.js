@@ -10,6 +10,7 @@ y.Logger = cc.Class.extend({
         var infoLabel = this._infoLabel;
         if (!infoLabel) {
             infoLabel = this._infoLabel = new cc.LabelTTF(msg, res.font_hei, 38);
+            infoLabel.retain();
             infoLabel.setColor(cc.color.RED);
             infoLabel.x = 300;
             infoLabel.y = 500;
@@ -20,6 +21,7 @@ y.Logger = cc.Class.extend({
         if(infoLabel._parent!=target&&target instanceof cc.Scene) {
             try{
                 if(infoLabel._parent){
+
                     infoLabel._parent.removeChild(infoLabel);
                 }
                 target.addChild(infoLabel, 5);
