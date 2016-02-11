@@ -17,8 +17,15 @@ y.Logger = cc.Class.extend({
             infoLabel.setString(msg+"\n"+infoLabel.getString())
         }
         //infoLabel.removeFromParent();
-        if(infoLabel._parent!=target) {
-            target.addChild(infoLabel, 5);
+        if(infoLabel._parent!=target&&target instanceof cc.Scene) {
+            try{
+                if(infoLabel._parent){
+                    infoLabel._parent.removeChild(infoLabel);
+                }
+                target.addChild(infoLabel, 5);
+            }catch(e){
+                cc.log(e);
+            }
         }
     }
 });

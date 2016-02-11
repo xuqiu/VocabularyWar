@@ -12,8 +12,9 @@ var HelloWorldLayer = cc.Layer.extend({
     },
     
 	_onButtonStartTouchEnded: function(sender, type) {
-			cc.log("_onLoginButtonEvent: end");
-			cc.director.runScene(new PlayScene());
+        cc.log("_onLoginButtonEvent: end");
+        //cc.director.runScene(new PlayScene());
+        cc.director.runScene(new StatgesScene());
 	},
     onTouchEnded: function(touch) {
         cc.log("GameLayer onTouchEnded" + JSON.stringify(touch.getLocation()));

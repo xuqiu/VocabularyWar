@@ -17,6 +17,10 @@
         "src/PlayScene.js",
         "src/MonsterSprite.js",
         "src/MonsterAction.js",
+        "src/stages/scene.js",
+        "src/stages/button.js",
+
+
         "src/app.js"
     ]
 }
